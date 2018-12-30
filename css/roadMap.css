@@ -1,0 +1,133 @@
+body {
+    background-color: #CCCC99;
+    color: #330000;
+    /* font-family: Arial,Helvetica,sans-serif;
+    font-size:16px;
+    font-weight:normal; */
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+}
+nav{
+    background-color: #330000;
+    color: #fff;
+}
+nav h1{
+    letter-spacing: .3em;
+    word-spacing: .2em;
+    text-align: center;
+    margin:0;
+    padding: 20px;
+    line-height: 1.5em;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: white;
+}
+.clr{
+    clear: both;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.box1 {
+      
+    background-color: #99CCB3;
+        table-layout: 
+    padding: 15px;
+    padding-right: 5px white ; 
+    border:5px solid #330000;
+    width: 50%;
+    height: 500px;
+    font-family: Georgia;
+    /* float: left; */
+    
+    
+}
+.steps{
+   padding: 0;
+   list-style: none; 
+}
+.listSubscribe{
+    margin:20px;
+
+}
+.listSubscribe .formGroup{
+    padding-bottom: 15px;
+}
+.listSubscribe label{
+    display: block;
+}
+.listSubscribe input[type="text"]{
+    padding: 8px;
+    width: 100%;
+}
+.button{
+    background-color: #330000;
+    color:#fff;
+    padding: 10px 15px;
+    border:none;
+}
+.button:hover{
+    background-color: red;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border:1px solid #330000;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+#mainBlock{
+    float: left;
+    width: 70%;
+}
+
+#sideBar{
+    float: right;
+    width: 30%;
+    background-color: #330000;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.pBox {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    background-image: url("../images/bgImage.jpg");
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+.pBox h1{
+    position:relative;
+    color: white;
+    top:25px;
+    left: 50px;
+}
+.pBox h2{
+    position:relative;
+    color: white;
+    top:25px;
+    left: 50px;
+}
+.fixMe{
+    position:fixed;
+    top:400px;
+}
